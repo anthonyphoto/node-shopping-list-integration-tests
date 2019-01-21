@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: AHEylfY8M6C1jOtuj9tn2FXcDix5ndRLG889PoI+gXWyKo+OeIHncRvm3sj78yjBRPDwOJpd7381BYsaOl8TiZW6f5cOv3GYbQQqFt5RSrk/2Jgx7wdp+2CNQRY/JDZ2r7rE8P+dck5ac5kpVXd64cSE5GNqs8mrUAWILoB1kl/SiZrVALRN2HXRqRmqGlxwnE3Mz37BujmC09LnhzcD2Z3ZPlCUhRu5P30iQsRCJA3owSEISbkcTd6/N6Nnj/qD95NAnubNe4+15rntLQF6M29qeFRahr/M6EsUHjetEwz2ZJ/O8WsZUZxsqNvl0Bnys5e8frqkJFw5dc7qOxBwkGa4SW0ZjrmFWaID2lgwHSU37QcFBipL0qJ6kuAlrfbfSX9pEpWuB8K03fNuM22cLaKAAb7x5eXiX5Tl+M17RUdaEooJp7Rw9mo4PMvBh/iMcpB6HguuctaY8EAX71MiOPBiQWvptGiZ9IunDoKAAGixvDY8vM9rT2/0t4ghXCiCjSVoKPn0/q9c4kuQzPRIL/Ju5QIeKqSIFAC8qwRWFVYhzJEThqU74wobPyTeK0dDY/xiNHNrnlRs9ldhxgiOfwLCb4kN069aU1IgFcXTc3ANZulTPWTEogoHFHJtNNgwdt7TiqMgAmbzuAaeT2xLErpJtgBtYvH6+gYX75idfQk=
+  app: dry-brook-47445 
+  on:
+    repo: anthonyphoto/node-shopping-list-integration-tests
